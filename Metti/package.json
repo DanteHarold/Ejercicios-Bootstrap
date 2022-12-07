@@ -1,0 +1,16 @@
+{
+  "name": "metti",
+  "version": "1.0.0",
+  "description": "Aprendiendo Bootstrap 5 y Sass",
+  "main": "index.js",
+  "scripts": {
+    "compilar:sass": "sass --watch src/scss:build/css",
+    "build:sass": "purgecss --css build/css/styles.css --content index.html --output build/css/meeti.css"
+  },
+  "author": "DanteHarold",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^5.2.3",
+    "sass": "^1.56.1"
+  }
+}
